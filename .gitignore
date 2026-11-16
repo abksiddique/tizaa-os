@@ -1,0 +1,3 @@
+# ISO images go to GitHub Releases, not the repository
+*.iso
+SHA256SUMS
