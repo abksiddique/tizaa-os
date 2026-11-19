@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.1%20preview-F5B700?style=flat-square" alt="version 0.1.1 preview">
+  <img src="https://img.shields.io/badge/version-0.1.2%20preview-F5B700?style=flat-square" alt="version 0.1.2 preview">
   <img src="https://img.shields.io/badge/base-Debian%2013-2DD4BF?style=flat-square" alt="Debian 13 base">
   <img src="https://img.shields.io/badge/networks-Tor%20%2B%20I2P-38BDF8?style=flat-square" alt="Tor and I2P">
   <img src="https://img.shields.io/badge/license-GPL--3.0-16264A?style=flat-square" alt="GPL-3.0">
@@ -23,7 +23,7 @@ Plug in. Start. You're protected. Tizaa OS sends everything through **Tor** or *
 
 *Ti zaa* means **"all of us"** in Dagbanli, a language of northern Ghana. Everybody deserves privacy and secure communication, not only the few who know how to configure it.
 
-## What's inside (0.1.1)
+## What's inside (0.1.2)
 
 | | |
 |---|---|
@@ -69,8 +69,8 @@ Follow progress at [tizaa.org](https://tizaa.org).
 ## Try it
 
 1. Download the ISO from [Releases](../../releases) and verify it:
-   - Windows: `certutil -hashfile tizaa-os-0.1.1-amd64.hybrid.iso SHA256`
-   - Linux/macOS: `sha256sum tizaa-os-0.1.1-amd64.hybrid.iso`
+   - Windows: `certutil -hashfile tizaa-os-0.1.2-amd64.hybrid.iso SHA256`
+   - Linux/macOS: `sha256sum tizaa-os-0.1.2-amd64.hybrid.iso`
    - The result must match the `SHA256SUMS` file in the release.
 2. **VirtualBox:** Linux / Debian (64-bit), tick **Skip Unattended Installation**, 4 GB RAM, **EFI on**, VMSVGA with 128 MB video. Choose **Start Tizaa OS**.
 3. **USB stick:** write the ISO with a tool such as [balenaEtcher](https://etcher.balena.io/) and boot from it.
@@ -79,9 +79,7 @@ Live session user: `tizaa` (logs in automatically).
 
 ## Project status
 
-Tizaa OS is a **development preview**. It has **not yet been independently audited**.
-
-> **If your safety depends on anonymity today, please use [Tails](https://tails.net/) while Tizaa grows.** We will say clearly when Tizaa OS is ready for high-risk use.
+**Development preview.** Tizaa OS is in active development toward 1.0, which will include an independent security audit. Try it, test it, and tell us what you find.
 
 ## Get involved
 
