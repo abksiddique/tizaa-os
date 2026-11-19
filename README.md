@@ -70,12 +70,12 @@ Follow progress at [tizaa.org](https://tizaa.org).
 
 1. Download the ISO from [Releases](../../releases) and verify it:
    - Windows: `certutil -hashfile tizaa-os-0.1.2-amd64.hybrid.iso SHA256`
-   - Linux/macOS: `sha256sum tizaa-os-0.1.2-amd64.hybrid.iso`
-   - The result must match the `SHA256SUMS` file in the release.
+   - Linux/macOS: `sha256sum -c SHA256SUMS` (with both files in the same folder)
+   - The result must match: `534f36742bdfb8d6534fedbd79c2ad96a11dd13831c454e48a5b081ca0b5e71f`
 2. **VirtualBox:** Linux / Debian (64-bit), tick **Skip Unattended Installation**, 4 GB RAM, **EFI on**, VMSVGA with 128 MB video. Choose **Start Tizaa OS**.
 3. **USB stick:** write the ISO with a tool such as [balenaEtcher](https://etcher.balena.io/) and boot from it.
 
-Live session user: `tizaa` (logs in automatically).
+Live session: user `tizaa`, password `live` (logs in automatically; the password is only needed for administrator tasks).
 
 ## Project status
 
@@ -93,7 +93,7 @@ Live session user: `tizaa` (logs in automatically).
 
 ## About
 
-Tizaa OS is created by **Siddique Abubakr Muntaka**. It grew out of doctoral research on the I2P anonymity network at the University of Cincinnati.
+Tizaa OS is created by **Siddique Abubakr Muntaka**, a researcher of anonymity networks and internet freedom.
 
 ## License and trademarks
 
